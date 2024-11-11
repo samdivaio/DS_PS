@@ -117,7 +117,7 @@ Run Fiddler Classic:
 > [!WARNING]
 > - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)`
 > - Make sure `ignore server certificate errors` is checked as well.
-> - Copy and paste the following code into the Fiddlerscript tab of Fiddler Classic:
+> - Copy and paste the following code into the `FiddlerScript` tab of Fiddler Classic:
 
 ```py
 import System;

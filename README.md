@@ -12,7 +12,7 @@ Educational Purposes Only
 ## Usage
 
 ### **(1/3)** 
-Make a folder wherever you want and [download the below script](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat) to it and use the downloaded batch script file to clone the repos if you don't wanna type them manually:
+Make a folder wherever you want and [download the below script](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat)[^1] to it and use the downloaded batch script file to clone the repos if you don't wanna type them manually:
 
 ```bat
 @ECHO OFF
@@ -33,7 +33,7 @@ pause
 ```
 
 ### **(2/3)** 
-[Download](https://github.com/samdivaio/DS_PS/blob/main/02_FreshStart.bat) and use the below script in the same folder as before to get the server assembled: 
+[Download](https://github.com/samdivaio/DS_PS/blob/main/02_FreshStart.bat)[^1] and use the below script in the same folder as before to get the server assembled: 
 
 ```bat
 @ECHO OFF
@@ -117,7 +117,7 @@ Run Fiddler Classic:
 > [!WARNING]
 > - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)`
 > - Make sure `ignore server certificate errors` is checked as well.
-> - Copy and paste the following code into the `FiddlerScript` tab of Fiddler Classic:
+> - Copy and paste the following code into the `FiddlerScript`[^2] tab of Fiddler Classic:
 
 ```py
 import System;
@@ -137,6 +137,13 @@ class Handlers
 ```
 > [!TIP]
 > - Run the `DanhengServer.exe` inside the `PS` folder.
-> - Once its ready, type `account create <your username>` to create an account.
+> - Once its ready[^3], type `account create <your username>` to create an account.
 > - Run the game.
 > - Login with `<your username>` and you're done.
+
+
+
+[^1]:Download button: ![image](https://github.com/user-attachments/assets/be58bbe8-e80e-49e0-a5ca-b9c93c14320d)
+[^2]:Fiddler Script: ![image](https://github.com/user-attachments/assets/a67a72f5-7d0f-4d20-9771-b67769752dfe)
+[^3]:Console Ready: ![image](https://github.com/user-attachments/assets/5956e738-83e8-4132-8da8-12adc58cde07)
+

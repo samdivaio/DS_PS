@@ -3,11 +3,10 @@ Educational Purposes Only
 
 ## Requirements
 - [Git for Windows](<https://gitforwindows.org/>)
-- [7zip Installer](<https://7-zip.org/download.html>)
 - [Fiddler Classic](https://www.telerik.com/fiddler)
 
 > [!IMPORTANT]
-> Make sure `git` is added to the PATH while installation and `7zip` is installed to the default directory `(Program Files\7-Zip\7z.exe)`. 
+> Make sure `git` is added to the PATH while installation. 
 
 ## Usage
 

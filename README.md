@@ -12,7 +12,7 @@ Educational Purposes Only
 ## Usage
 
 ### **(1/3)** 
-Make a folder wherever you want and [download](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat) and use the below script to clone the repos if you don't wanna type them manually:
+Make a folder wherever you want and [download the below script](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat) to it and use the downloaded batch script file to clone the repos if you don't wanna type them manually:
 
 ```bat
 @ECHO OFF

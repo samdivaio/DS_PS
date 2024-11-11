@@ -11,7 +11,8 @@ Educational Purposes Only
 
 ## Usage
 
-### **(1/3)** Make a folder wherever you want and [download](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat) and use the below script to clone the repos if you don't wanna type them manually:
+### **(1/3)** 
+Make a folder wherever you want and [download](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat) and use the below script to clone the repos if you don't wanna type them manually:
 
 ```bat
 @ECHO OFF
@@ -31,7 +32,8 @@ git clone https://github.com/EggLinks/DanhengServer-Public.git
 pause
 ```
 
-### **(2/3)** [Download](https://github.com/samdivaio/DS_PS/blob/main/02_FreshStart.bat) and use the below script in the same folder as before to get the server assembled: 
+### **(2/3)** 
+[Download](https://github.com/samdivaio/DS_PS/blob/main/02_FreshStart.bat) and use the below script in the same folder as before to get the server assembled: 
 
 ```bat
 @ECHO OFF
@@ -110,7 +112,8 @@ TITLE Done.
 pause
 ```
 
-### **(3/3)** Run Fiddler Classic:
+### **(3/3)** 
+Run Fiddler Classic:
 > [!WARNING]
 > - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)`
 > - Make sure `ignore server certificate errors` is checked as well.

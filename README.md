@@ -145,5 +145,5 @@ class Handlers
 
 [^1]:Download button: ![image](https://github.com/user-attachments/assets/be58bbe8-e80e-49e0-a5ca-b9c93c14320d)
 [^2]:Fiddler Script: ![image](https://github.com/user-attachments/assets/a67a72f5-7d0f-4d20-9771-b67769752dfe)
-[^3]:Console Ready: ![image](https://github.com/user-attachments/assets/5956e738-83e8-4132-8da8-12adc58cde07)
+[^3]:Console Ready: ![image](https://github.com/user-attachments/assets/12ffec24-48f5-4250-aa8b-eadd33593c59)
 

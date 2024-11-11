@@ -35,7 +35,7 @@ ECHO.
 ECHO Extracting files...
 TITLE Extracting release.zip
 
-IF EXIST "%root%release.zip" ("%SystemDrive%Program Files\7-Zip\7z.exe" x %root%release.zip "-o%root%" -y) ELSE (ECHO release.zip not found.)
+IF EXIST "%root%release.zip" (powershell -Command "Expand-Archive -Path '.\release.zip' -DestinationPath '.' -Force") ELSE (ECHO release.zip not found.)
 ECHO.
 REN "%root%win-x64-self-contained" PS
 ECHO release file extracted to new PS folder.

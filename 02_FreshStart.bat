@@ -83,5 +83,5 @@ powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/samdiva
 
 ECHO.
 TITLE Done.
-pause >nul
 ECHO PS is ready. Press any key to exit...
+pause >nul

@@ -118,11 +118,18 @@ ECHO Downloading New Banners.json...
 
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/samdivaio/DS_PS/refs/heads/main/Banners.json -OutFile '%root%PS\Config\Banners.json'"
 
+IF EXIST "%root%PS_Old\Config\Database\danheng.db" (
+TITLE Checking the old Database...
+ECHO Making Database folder...
+MKDIR "%root%PS\Config\Database"
+ECHO Copying the old Database...
+COPY "%root%PS_Old\Config\Database\danheng.db" "%root%PS\Config\Database\danheng.db"
+)
+
 ECHO.
 TITLE Done.
 ECHO PS is ready. Press any key to exit...
 pause >nul
-
 ```
 
 ### **(3/3)** 

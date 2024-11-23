@@ -77,7 +77,7 @@ DEL Banners.json.old >nul 2>&1
 REN "%root%PS\Config\Banners.json" Banners.json.old
 )
 
-Downloading New Banners.json...
+ECHO Downloading New Banners.json...
 
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/samdivaio/DS_PS/refs/heads/main/Banners.json -OutFile '%root%PS\Config\Banners.json'"
 

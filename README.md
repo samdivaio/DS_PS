@@ -5,7 +5,7 @@ Educational Purposes Only
 - [Git for Windows](<https://gitforwindows.org/>)
 - [Fiddler Classic](https://www.telerik.com/fiddler)
 
-> [!IMPORTANT]
+> [!NOTE]
 > Make sure `git` is added to the PATH while installation. 
 
 ## Usage
@@ -134,7 +134,7 @@ pause >nul
 
 ### **(3/3)** 
 Run Fiddler Classic:
-> [!WARNING]
+> [!IMPORTANT]
 > - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)`
 > - Make sure `ignore server certificate errors` is checked as well.
 > - Copy and paste the following code into the `FiddlerScript`[^2] tab of Fiddler Classic:
@@ -155,6 +155,10 @@ class Handlers
     }
 };
 ```
+> [!WARNING]
+> If you can't connect, try resetting the certificates: ![Fiddler-cert-reset](https://github.com/user-attachments/assets/3543880d-2735-419c-b41c-bfc0d240f1ce)
+
+
 > [!TIP]
 > - Run the `DanhengServer.exe` inside the `PS` folder.
 > - Once its ready[^3], type `account create <your username>` to create an account.

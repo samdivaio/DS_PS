@@ -171,6 +171,6 @@ class Handlers
 [^1]:Download button: ![image](https://github.com/user-attachments/assets/be58bbe8-e80e-49e0-a5ca-b9c93c14320d)
 [^2]:Fiddler Script: ![image](https://github.com/user-attachments/assets/a67a72f5-7d0f-4d20-9771-b67769752dfe)
 [^3]:Console Ready: ![image](https://github.com/user-attachments/assets/12ffec24-48f5-4250-aa8b-eadd33593c59)
-[^4]:If you want to be able to play offline and don't want to bother with certificate issues then try AutoResponder on Fiddler as per the image, copy: `METHOD:CONNECT starrails.com` `METHOD:CONNECT hoyoverse.com` `METHOD:CONNECT mihoyo.com` `METHOD:CONNECT bhsr.com` and `*ReplyWithTunnel`: ![image](https://github.com/user-attachments/assets/9f3322ff-9fdb-4aa7-adcd-747d616bee31) (Thanks to @thoronium from Discord.)
+[^4]:If you want to be able to play offline and don't want to bother with certificate issues then try AutoResponder, download and import the file [here](https://github.com/samdivaio/DS_PS/blob/main/AutoResponder_Import.farx): ![image](https://github.com/user-attachments/assets/9f3322ff-9fdb-4aa7-adcd-747d616bee31) (Thanks to @thoronium from Discord.)
 
 

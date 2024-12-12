@@ -8,9 +8,11 @@ Educational Purposes Only
 > [!NOTE]
 > Make sure `git` is added to the PATH while installation. 
 
+
 ## Usage
 
-### **(1/3)** 
+### **(1/3)**
+
 Make a folder wherever you want and [download the below script](https://github.com/samdivaio/DS_PS/blob/main/01_Clone.bat)[^1] to it and use the downloaded batch script file to clone the repos if you don't wanna type them manually:
 
 ```bat
@@ -31,7 +33,10 @@ git clone https://github.com/EggLinks/DanhengServer-Public.git
 pause
 ```
 
+---
+
 ### **(2/3)** 
+
 [Download](https://github.com/samdivaio/DS_PS/blob/main/02_FreshStart.bat)[^1] and use the below script in the same folder as before to get the server assembled: 
 
 ```bat
@@ -121,11 +126,14 @@ ECHO PS is ready. Press any key to exit...
 pause >nul
 ```
 
+---
+
 ### **(3/3)** 
+
 Run Fiddler Classic:
 > [!IMPORTANT]
-> - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)`
-> - Make sure `ignore server certificate errors` is checked as well.
+> - Set fiddler to decrypt https traffic. `(Tools -> Options -> HTTPS -> Decrypt HTTPS traffic)` <sup>You can skip this step:</sup> [^4]
+> - Make sure `ignore server certificate errors` is checked as well. <sup>You can skip this step:</sup> [^4]
 > - Copy and paste the following code into the `FiddlerScript`[^2] tab of Fiddler Classic:
 
 ```py
@@ -144,15 +152,13 @@ class Handlers
     }
 };
 ```
+
+---
+
 > [!WARNING]
-> If you can't connect, try resetting the certificates and you are done: ![Fiddler-cert-reset](https://github.com/user-attachments/assets/3543880d-2735-419c-b41c-bfc0d240f1ce)
+> If you can't connect, try resetting the certificates and you are done: <sup>You can skip this step:</sup> [^4] ![Fiddler-cert-reset](https://github.com/user-attachments/assets/3543880d-2735-419c-b41c-bfc0d240f1ce)
 
-> [!NOTE]
-> If you want to play offline and don't want to bother with certificate issues then, try AutoResponder on Fiddler: ![image](https://github.com/user-attachments/assets/9f3322ff-9fdb-4aa7-adcd-747d616bee31)
->
-> (Thanks to @thoronium from Discord.)
-
-
+---
 
 > [!TIP]
 > - Run the `DanhengServer.exe` inside the `PS` folder.
@@ -160,9 +166,11 @@ class Handlers
 > - Run the game.
 > - Login with `<your username>` and you're done.
 
-
+---
 
 [^1]:Download button: ![image](https://github.com/user-attachments/assets/be58bbe8-e80e-49e0-a5ca-b9c93c14320d)
 [^2]:Fiddler Script: ![image](https://github.com/user-attachments/assets/a67a72f5-7d0f-4d20-9771-b67769752dfe)
 [^3]:Console Ready: ![image](https://github.com/user-attachments/assets/12ffec24-48f5-4250-aa8b-eadd33593c59)
+[^4]:If you want to be able to play offline and don't want to bother with certificate issues then try AutoResponder on Fiddler as per the image, copy: `METHOD:CONNECT starrails.com` `METHOD:CONNECT hoyoverse.com` `METHOD:CONNECT mihoyo.com` `METHOD:CONNECT bhsr.com` and `*ReplyWithTunnel`: ![image](https://github.com/user-attachments/assets/9f3322ff-9fdb-4aa7-adcd-747d616bee31) (Thanks to @thoronium from Discord.)
+
 

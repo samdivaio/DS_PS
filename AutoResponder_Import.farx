@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2024-12-12T09:19:41.105355+05:30" FiddlerVersion="5.0.20245.10105">
+  <State Enabled="true" AcceptAllConnects="true" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="METHOD:CONNECT starrails.com" Action="*ReplyWithTunnel" Enabled="true" />
+    <ResponseRule Match="METHOD:CONNECT hoyoverse.com" Action="*ReplyWithTunnel" Enabled="true" />
+    <ResponseRule Match="METHOD:CONNECT mihoyo.com" Action="*ReplyWithTunnel" Enabled="true" />
+    <ResponseRule Match="METHOD:CONNECT bhsr.com" Action="*ReplyWithTunnel" Enabled="true" />
+  </State>
+</AutoResponder>

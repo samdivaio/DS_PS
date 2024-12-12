@@ -145,7 +145,13 @@ class Handlers
 };
 ```
 > [!WARNING]
-> If you can't connect, try resetting the certificates: ![Fiddler-cert-reset](https://github.com/user-attachments/assets/3543880d-2735-419c-b41c-bfc0d240f1ce)
+> If you can't connect, try resetting the certificates and you are done: ![Fiddler-cert-reset](https://github.com/user-attachments/assets/3543880d-2735-419c-b41c-bfc0d240f1ce)
+
+> [!NOTE]
+> If you want to play offline and don't want to bother with certificate issues then, try AutoResponder on Fiddler: ![image](https://github.com/user-attachments/assets/9f3322ff-9fdb-4aa7-adcd-747d616bee31)
+>
+> (Thanks to @thoronium from Discord.)
+
 
 
 > [!TIP]

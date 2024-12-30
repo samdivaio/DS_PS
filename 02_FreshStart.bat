@@ -55,16 +55,16 @@ ECHO.
 timeout /t 2 >nul
 TITLE Copying Files...
 
-ROBOCOPY %root%turnbasedgamedata %root%PS\resources\ /E /COPY:DAT
+ROBOCOPY "%root%turnbasedgamedata" "%root%PS\resources" /E /COPY:DAT
 timeout /t 2 >nul
 
-ROBOCOPY %root%DanhengServer-Resources\Config %root%PS\resources\Config\ /E /COPY:DAT
+ROBOCOPY "%root%DanhengServer-Resources\Config" "%root%PS\resources\Config" /E /COPY:DAT
 timeout /t 2 >nul
 
-ROBOCOPY %root%DanhengServer-Resources\ExcelOutput %root%PS\resources\ExcelOutput\ /E /COPY:DAT
+ROBOCOPY "%root%DanhengServer-Resources\ExcelOutput" "%root%PS\resources\ExcelOutput" /E /COPY:DAT
 timeout /t 2 >nul
 
-ROBOCOPY %root%DanhengServer-Public\Config %root%PS\Config\ /E /COPY:DAT
+ROBOCOPY "%root%DanhengServer-Public\Config" "%root%PS\Config" /E /COPY:DAT
 timeout /t 2 >nul
 
 COPY "%root%DanhengServer-Public\WebServer\certificate.p12" "%root%PS\certificate.p12"

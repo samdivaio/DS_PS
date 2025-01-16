@@ -92,6 +92,11 @@ ECHO Copying the old Database...
 COPY "%root%PS_Old\Config\Database\danheng.db" "%root%PS\Config\Database\danheng.db"
 )
 
+IF EXIST "%root%PS_Old\config.json" (
+REN "%root%PS\config.json" config.json.old
+COPY "%root%PS_Old\config.json" "%root%PS\config.json"
+)
+
 ECHO.
 TITLE Done.
 ECHO PS is ready. Press any key to exit...

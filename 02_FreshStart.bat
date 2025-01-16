@@ -73,16 +73,16 @@ timeout /t 2 >nul
 COPY "%root%DanhengServer-Public\WebServer\certificate.p12" "%root%PS\certificate.p12"
 timeout /t 2 >nul
 
-REM IF EXIST "%root%PS\Config\Banners.json" (
-REM TITLE Checking Banners.json
-REM ECHO Renaming old Banners.json...
-REM DEL Banners.json.old >nul 2>&1
-REM REN "%root%PS\Config\Banners.json" Banners.json.old
-REM )
+IF EXIST "%root%PS\Config\Banners.json" (
+TITLE Checking Banners.json
+ECHO Renaming old Banners.json...
+DEL Banners.json.old >nul 2>&1
+REN "%root%PS\Config\Banners.json" Banners.json.old
+)
 
-REM ECHO Downloading New Banners.json...
+ECHO Downloading New Banners.json (Thanks to @wfowicwjcwc)...
 
-REM powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/samdivaio/DS_PS/refs/heads/main/Banners.json -OutFile '%root%PS\Config\Banners.json'"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/samdivaio/DS_PS/refs/heads/main/Banners.json -OutFile '%root%PS\Config\Banners.json'"
 
 IF EXIST "%root%PS_Old\Config\Database\danheng.db" (
 TITLE Checking the old Database...
@@ -94,6 +94,7 @@ COPY "%root%PS_Old\Config\Database\danheng.db" "%root%PS\Config\Database\danheng
 
 IF EXIST "%root%PS_Old\config.json" (
 REN "%root%PS\config.json" config.json.old
+ECHO Copying the old config.json...
 COPY "%root%PS_Old\config.json" "%root%PS\config.json"
 )
 

@@ -6,7 +6,7 @@ CD /D "%root%"
 ECHO Press any key to start cloning...
 pause >nul
 
-git clone https://gitlab.com/Dimbreath/turnbasedgamedata.git
+REM git clone https://gitlab.com/Dimbreath/turnbasedgamedata.git
 
 git clone https://github.com/EggLinks/DanhengServer-Resources.git
 
